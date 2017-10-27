@@ -1,0 +1,72 @@
+body {
+    background-color: #162955;
+    font-family: 'Arvo', 'Source Sans Pro', serif;
+}
+
+#gameTitle {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+td {
+    border: 2px solid #333;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Arvo', 'Source Sans Pro', serif;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+table {
+    border-collapse: collapse; /* only on line border now*/
+    position: absolute; /* not related to other element on the page*/
+    left: 50%; /* center the element */
+    margin-left: -155px; /* total of the box is 310px/2 = 155px, -155 center the box */
+    /* top: 50px; */
+    background-color: white;
+}
+
+table tr:first-child td {
+    border-top: 0;
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+}
+
+table tr td:first-child {
+    border-left: 0;
+}
+
+table tr td:last-child {
+    border-right: 0;
+}
+
+.endgame {
+    display: none; 
+    width: 200px;
+    top: 120px;
+    background-color: rgba(107,107,107,0.8);
+    background-color: #7887AB;
+    opacity: .9;
+    font-family: 'Arvo', 'Source Sans Pro', serif;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
+}
+
+
+
+
+
+
